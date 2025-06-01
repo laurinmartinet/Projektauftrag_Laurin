@@ -1,13 +1,14 @@
-html {
+html, body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.header-container {
+header {
     display: flex;
     flex-direction: column;
-
     box-sizing: border-box;
-    width: 100%;
+
     height: 150px;
     margin-bottom: 30px;  
 }
@@ -40,19 +41,21 @@ html {
 .titel {
     box-sizing: border-box;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 1;
+    text-align: center;
 }
 
 .trennlinie {
-    width: 2px;
-    height: 60px;
+    width: 3px;
+    height: 90px;
     background-color: black;
 }
 
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
     
 }
 
@@ -60,7 +63,7 @@ html {
     box-sizing: border-box;
     color:#882C2C;
     margin: 10px;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -83,12 +86,12 @@ main {
     grid-gap: 10px;
 
     width: 100%;
-    margin: 30px;
 }
 
 h1 {
     grid-area: überschrift;
 
+    font-weight: 350;
     font-size: 40px;
     margin: 10px;
 }
@@ -113,4 +116,72 @@ hr {
     height: 2px;
     margin-top: 30px;
     background-color: black;
+}
+
+footer { 
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.ortschaft-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ortschaft-item1 {
+    flex: 1;
+    width: 500px;
+    height: 200px;
+    margin: 5px;
+    background-color: #882C2C;
+    color: white;
+    white-space: pre;
+}
+
+.ortschaft-item2 {
+    flex: 1;
+    width: 500px;
+    height: 200px;
+    margin: 5px;
+    background-color: #882C2C;
+    color: white;
+    white-space: pre;
+}
+
+.footer-schwarz {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-schwarz-text {
+    color: white;
+}
+
+.footer-schwarz-bilder {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 20px;
+}
+
+.footer-bild-youtube {
+    width: 100px;
+}
+
+.footer-bild-tiktok {
+    width: 100px;
+    height: 75px;
+    border-radius: 20px;
+}
+
+.footer-bild-instagram {
+    width: 90px;
+    height: 78px;
 }
