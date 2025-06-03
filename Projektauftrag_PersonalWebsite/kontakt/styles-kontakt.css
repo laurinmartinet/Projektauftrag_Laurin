@@ -100,7 +100,7 @@ h1 {
     row-gap: 10%;
     column-gap: 5%;
 
-    width: 50%;
+    width: 75%;
     margin-left: 10%;
 }
 
@@ -172,7 +172,10 @@ button {
 footer { 
     display: flex;
     flex-direction: column;
-    width: 100%
+    justify-content: space-between;
+
+    width: 100%;
+
 }
 
 .ortschaft-container {
@@ -181,10 +184,9 @@ footer {
 }
 
 .ortschaft-item {
-    flex: 1;
-    width: 500px;
+    width: 50%;
     height: 200px;
-    margin: 5px;
+    margin: 1px;
     background-color: #882C2C;
     color: white;
     white-space: pre;
@@ -203,6 +205,16 @@ footer {
 
 .footer-schwarz-text {
     color: white;
+}
+
+.footer-schwarz-text-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-schwarz-text-link:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .footer-schwarz-bilder {

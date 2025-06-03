@@ -179,10 +179,9 @@ footer {
 }
 
 .ortschaft-item {
-    flex: 1;
-    width: 500px;
+    width: 50%;
     height: 200px;
-    margin: 5px;
+    margin: 1px;
     background-color: #882C2C;
     color: white;
     white-space: pre;
@@ -201,6 +200,16 @@ footer {
 
 .footer-schwarz-text {
     color: white;
+}
+
+.footer-schwarz-text-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-schwarz-text-link:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .footer-schwarz-bilder {
